@@ -3,11 +3,25 @@
   <title>IMongoDB</title>
 </head>
 <body>
-  <script src="http://localhost:3001"></script>
-  <script src="http://localhost:3002"></script>
-  <script src="http://localhost:3003"></script>
+  <div id="itemData"></div>
+  <div id="more"></div>
+  <div id="carousel"></div>
+  <script src="http://localhost:3001/bundle.js"></script>
+  <script src="http://localhost:3002/bundle.js"></script>
+  <script src="http://localhost:3003/bundle.js"></script>
   <script>
-
+    ReactDom.render(
+      React.createElement(ItemData),
+      document.getElementById('itemData')
+    );
+    ReactDom.render(
+      React.createElement(More),
+      document.getElementById('more')
+    );
+    ReactDom.render(
+      React.createElement(Carousel),
+      document.getElementById('carousel')
+    );
   </script>
 </body>
 </html>
