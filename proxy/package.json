@@ -1,0 +1,25 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "package for proxy",
+  "main": "server.js",
+  "dependencies": {},
+  "devDependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrr40-fec2/Photo-Carousel-Proxy.git"
+  },
+  "author": "Myers Nii-Ansah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrr40-fec2/Photo-Carousel-Proxy/issues"
+  },
+  "homepage": "https://github.com/hrr40-fec2/Photo-Carousel-Proxy#readme"
+}

@@ -1,0 +1,12 @@
+[submodule "Photo-Carousel"]
+	path = Photo-Carousel
+	url = https://github.com/hrr40-fec2/Photo-Carousel.git
+	branch = master
+[submodule "item-data-service"]
+	path = item-data-service
+	url = https://github.com/hrr40-fec2/item-data-service.git
+	branch = master
+[submodule "more_like_this_service"]
+	path = more_like_this_service
+	url = https://github.com/hrr40-fec2/more_like_this_service.git
+	branch = master
