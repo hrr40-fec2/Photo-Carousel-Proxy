@@ -3,7 +3,7 @@ var path = require('path');
 module.exports = {
   entry: {
     itemdata: path.join(__dirname,'../item-data-service/client/src/index.jsx'),
-    more: path.join(__dirname, '../more_like_this_service/client/src/index.js'),
+    more: path.join(__dirname, '../more_like_this_service/client/src/index.jsx'),
     carousel: path.join(__dirname, '../Photo-Carousel/client/src/index.jsx')
   },
   module: {
