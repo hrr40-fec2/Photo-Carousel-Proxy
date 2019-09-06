@@ -1,13 +1,40 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+#more {
+  margin-top: 60%;
+}
+
+
+/*
+body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
 .itemdata {
+  display: block;
   height: 30%;
   width: 30%;
 }
+
 .more {
-  position: relative;
-}
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  margin-left: 93px;
+  margin-top: 430px;
+} */
 
-
-.app {
+/* .app {
+  display: block;
   position: relative;
-}
+  overflow: hidden;
+  margin-left: -250px;
+  margin-top: 800px;
+} */
 
