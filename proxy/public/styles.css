@@ -1,40 +1,14 @@
-.app {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-}
-
 #more {
-  margin-top: 60%;
-}
-
-
-/*
-body {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-}
-
-.itemdata {
-  display: block;
-  height: 30%;
-  width: 30%;
-}
-
-.more {
-  display: block;
-  position: absolute;
-  overflow: hidden;
-  margin-left: 93px;
-  margin-top: 430px;
-} */
-
-/* .app {
-  display: block;
+  margin: auto;
+  margin-top: 35%;
+  margin-left: 7%;
   position: relative;
-  overflow: hidden;
-  margin-left: -250px;
-  margin-top: 800px;
-} */
+}
+
+#app {
+  position: relative;
+  bottom: 600px;
+  right: 180px;
+}
+
 
